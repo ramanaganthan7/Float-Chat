@@ -1,9 +1,16 @@
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
 import os
 import re
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# Load .env from the dashboard folder (works regardless of cwd)
+_ENV_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+load_dotenv(_ENV_PATH)
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY not found. Check dashboard/.env")
 
 _client = genai.Client(api_key=GEMINI_API_KEY)
 
