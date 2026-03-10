@@ -12,13 +12,5 @@ dependencies = [
     "python-dotenv>=1.0.0",
 ]
 
-[project.scripts]
-serve = "streamlit:main"
-
 [tool.uv]
-# uv run uses this entrypoint
 package = false
-
-[tool.uv.scripts]
-dev = "streamlit run dashboard/app.py --server.runOnSave true"
-start = "streamlit run dashboard/app.py"
