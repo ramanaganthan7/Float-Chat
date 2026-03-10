@@ -32,4 +32,10 @@ def generate_sql(user_prompt: str, system_prompt: str) -> str:
     # Strip markdown code fences if present
     text = re.sub(r"```sql\s*", "", text, flags=re.IGNORECASE)
     text = re.sub(r"```\s*", "", text)
+    text = text.strip()
+    # Strip any garbage prefix before the first SQL keyword
+    # e.g. Gemini leaks "ite " from "SQLite" at the start
+    match = re.search(r"\b(SELECT|WITH|INSERT|UPDATE|DELETE)\b", text, re.IGNORECASE)
+    if match:
+        text = text[match.start():]
     return text.strip()
