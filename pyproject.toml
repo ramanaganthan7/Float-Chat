@@ -1,0 +1,24 @@
+[project]
+name = "algofloat"
+version = "0.1.0"
+description = "AI-powered ARGO ocean float data dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.35.0",
+    "pandas>=2.0.0",
+    "plotly>=5.0.0",
+    "google-genai>=1.0.0",
+    "langgraph>=0.2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+serve = "streamlit:main"
+
+[tool.uv]
+# uv run uses this entrypoint
+package = false
+
+[tool.uv.scripts]
+dev = "streamlit run dashboard/app.py --server.runOnSave true"
+start = "streamlit run dashboard/app.py"
