@@ -1,0 +1,102 @@
+.sidebar {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: var(--sidebar);
+  background: linear-gradient(180deg, #060F1E 0%, #030A14 100%);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  overflow-y: auto;
+}
+
+/* ── Brand ── */
+.sidebar__brand {
+  padding: 1.5rem 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.sidebar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.9rem;
+  background: linear-gradient(135deg, rgba(0,148,198,0.14), rgba(0,198,184,0.14));
+  border: 1px solid rgba(0,212,255,0.18);
+  border-radius: 10px;
+  margin-bottom: 0.45rem;
+}
+.sidebar__brand-name {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: var(--tx);
+  letter-spacing: -0.01em;
+}
+.sidebar__brand-sub {
+  font-size: 0.67rem;
+  color: var(--tx3);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-left: 0.15rem;
+}
+
+/* ── Nav ── */
+.sidebar__nav {
+  flex: 1;
+  padding: 0.75rem 0.75rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.sidebar__nav-label {
+  font-size: 0.67rem;
+  font-weight: 700;
+  color: var(--tx3);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.5rem 0.5rem 0.4rem;
+}
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.58rem 0.85rem;
+  border-radius: var(--rs);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--tx2);
+  transition: background 0.15s, color 0.15s, border-left 0.1s;
+  border-left: 3px solid transparent;
+}
+.sidebar__link:hover {
+  background: rgba(0,148,198,0.10);
+  color: var(--a3);
+}
+.sidebar__link--active {
+  background: rgba(0,148,198,0.16);
+  color: var(--a3);
+  border-left: 3px solid var(--a3);
+  font-weight: 700;
+}
+.sidebar__link-icon {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* ── Footer ── */
+.sidebar__footer {
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.sidebar__footer-line {
+  font-size: 0.7rem;
+  color: var(--tx3);
+  letter-spacing: 0.03em;
+}
+.sidebar__footer-line--dim {
+  opacity: 0.5;
+  margin-top: 0.2rem;
+}

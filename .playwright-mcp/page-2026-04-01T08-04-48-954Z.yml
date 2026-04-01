@@ -1,0 +1,35 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e11]: AlgoFloat
+      - generic [ref=e12]: Ocean Intelligence Platform
+    - navigation [ref=e13]:
+      - generic [ref=e14]: Navigation
+      - link "Home" [ref=e15] [cursor=pointer]:
+        - /url: /
+        - img [ref=e17]
+        - text: Home
+      - link "Overview" [ref=e19] [cursor=pointer]:
+        - /url: /overview
+        - img [ref=e21]
+        - text: Overview
+      - link "Map" [ref=e26] [cursor=pointer]:
+        - /url: /map
+        - img [ref=e28]
+        - text: Map
+      - link "Trends" [ref=e31] [cursor=pointer]:
+        - /url: /trends
+        - img [ref=e33]
+        - text: Trends
+      - link "Chatbot" [ref=e35] [cursor=pointer]:
+        - /url: /chatbot
+        - img [ref=e37]
+        - text: Chatbot
+    - generic [ref=e39]:
+      - generic [ref=e40]: ARGO Float Array
+      - generic [ref=e41]: Gemini 2.0 Flash
+      - generic [ref=e42]: v0.1.0
+  - main [ref=e43]:
+    - generic [ref=e46]: Loading trends data…

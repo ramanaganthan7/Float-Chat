@@ -22,3 +22,13 @@ def dev():
          "--server.runOnSave", "true"],
         check=True,
     )
+
+
+def serve():
+    """uv run serve — launch the FastAPI backend on port 8000 with hot-reload."""
+    subprocess.run(
+        [sys.executable, "-m", "uvicorn", "backend.main:app",
+         "--reload", "--port", "8000", "--host", "0.0.0.0"],
+        cwd=_ROOT,
+        check=True,
+    )

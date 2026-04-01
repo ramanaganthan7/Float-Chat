@@ -10,11 +10,14 @@ dependencies = [
     "google-genai>=1.0.0",
     "langgraph>=0.2.0",
     "python-dotenv>=1.0.0",
+    "fastapi>=0.135.2",
+    "uvicorn[standard]>=0.42.0",
 ]
 
 [project.scripts]
 start = "algofloat.cli:start"
 dev   = "algofloat.cli:dev"
+serve = "algofloat.cli:serve"
 
 [build-system]
 requires = ["hatchling"]

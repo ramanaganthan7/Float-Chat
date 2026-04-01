@@ -1,0 +1,72 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - generic [ref=e11]: AlgoFloat
+        - generic [ref=e12]: Ocean Intelligence Platform
+      - navigation [ref=e13]:
+        - generic [ref=e14]: Navigation
+        - link "Home" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - img [ref=e17]
+          - text: Home
+        - link "Overview" [ref=e19] [cursor=pointer]:
+          - /url: /overview
+          - img [ref=e21]
+          - text: Overview
+        - link "Map" [ref=e26] [cursor=pointer]:
+          - /url: /map
+          - img [ref=e28]
+          - text: Map
+        - link "Trends" [ref=e31] [cursor=pointer]:
+          - /url: /trends
+          - img [ref=e33]
+          - text: Trends
+        - link "Chatbot" [active] [ref=e35] [cursor=pointer]:
+          - /url: /chatbot
+          - img [ref=e37]
+          - text: Chatbot
+      - generic [ref=e39]:
+        - generic [ref=e40]: ARGO Float Array
+        - generic [ref=e41]: Gemini 2.0 Flash
+        - generic [ref=e42]: v0.1.0
+    - main [ref=e43]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - generic [ref=e52]:
+            - heading "Chat with Ocean Data" [level=1] [ref=e53]
+            - paragraph [ref=e54]: Ask anything in plain English — the AI generates SQL and the database executes it instantly.
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Schema
+            - generic [ref=e58]:
+              - text: TABLE argo_profiles
+              - generic [ref=e59]: PLATFORM_NUMBER
+              - generic [ref=e60]: CYCLE_NUMBER
+              - generic [ref=e61]: PRES
+              - generic [ref=e62]: PSAL
+              - generic [ref=e63]: TEMP
+              - generic [ref=e64]: LATITUDE
+              - generic [ref=e65]: LONGITUDE
+              - generic [ref=e66]: TIME
+            - generic [ref=e67]: Examples
+            - generic [ref=e68] [cursor=pointer]: Show me the top 10 highest temperature readings
+            - generic [ref=e69] [cursor=pointer]: Average salinity per platform
+            - generic [ref=e70] [cursor=pointer]: List all floats and their cycle counts
+            - generic [ref=e71] [cursor=pointer]: Pressure vs temperature for platform 5906343
+            - generic [ref=e72] [cursor=pointer]: Which float has the deepest observations?
+            - generic [ref=e73] [cursor=pointer]: Temperature readings above 28°C
+          - generic [ref=e74]:
+            - generic [ref=e75]: AI ready
+            - generic [ref=e78]:
+              - img [ref=e79]
+              - text: Ask a question or click an example to start
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - textbox "e.g. Show me temperature readings above 28°C …" [ref=e83]
+                - button "Ask" [disabled] [ref=e84]
+              - generic [ref=e85]: Enter to send · Shift+Enter for new line
+  - img [ref=e86]

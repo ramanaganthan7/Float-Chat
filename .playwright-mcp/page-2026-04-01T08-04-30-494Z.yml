@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - generic [ref=e11]: AlgoFloat
+        - generic [ref=e12]: Ocean Intelligence Platform
+      - navigation [ref=e13]:
+        - generic [ref=e14]: Navigation
+        - link "Home" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - img [ref=e17]
+          - text: Home
+        - link "Overview" [ref=e19] [cursor=pointer]:
+          - /url: /overview
+          - img [ref=e21]
+          - text: Overview
+        - link "Map" [ref=e26] [cursor=pointer]:
+          - /url: /map
+          - img [ref=e28]
+          - text: Map
+        - link "Trends" [ref=e31] [cursor=pointer]:
+          - /url: /trends
+          - img [ref=e33]
+          - text: Trends
+        - link "Chatbot" [ref=e35] [cursor=pointer]:
+          - /url: /chatbot
+          - img [ref=e37]
+          - text: Chatbot
+      - generic [ref=e39]:
+        - generic [ref=e40]: ARGO Float Array
+        - generic [ref=e41]: Gemini 2.0 Flash
+        - generic [ref=e42]: v0.1.0
+    - main [ref=e43]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - generic [ref=e53]:
+            - heading "Float Locations Map" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Real-time global map of ARGO profiling float positions. Click any marker for full observation details.
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Colour by
+            - generic [ref=e59]:
+              - button "TEMP" [ref=e60] [cursor=pointer]
+              - button "PSAL" [ref=e61] [cursor=pointer]
+              - button "PRES" [ref=e62] [cursor=pointer]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Filter Platforms
+            - listbox [ref=e65] [cursor=pointer]:
+              - option "All platforms (41)" [selected]
+              - option "1902299"
+              - option "1902311"
+              - option "1902312"
+              - option "1902313"
+              - option "1902314"
+              - option "1902316"
+              - option "1902360"
+              - option "1902361"
+              - option "1902362"
+              - option "1902363"
+              - option "1902364"
+              - option "1902365"
+              - option "1902366"
+              - option "1902375"
+              - option "1902383"
+              - option "1902385"
+              - option "1902406"
+              - option "1902512"
+              - option "2904007"
+              - option "3901686"
+              - option "3902348"
+              - option "4902440"
+              - option "4902502"
+              - option "4902590"
+              - option "4903244"
+              - option "4903274"
+              - option "4903276"
+              - option "4903348"
+              - option "4903352"
+              - option "4903372"
+              - option "4903898"
+              - option "5906343"
+              - option "5907143"
+              - option "6901997"
+              - option "6902915"
+              - option "6903112"
+              - option "6903123"
+              - option "6904126"
+              - option "6904128"
+              - option "7902226"
+              - option "7902278"
+          - generic [ref=e68]: 2,715 observations · 41 floats
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e72]: Visible Records
+            - generic [ref=e73]: 2,715
+          - generic [ref=e74]:
+            - generic [ref=e76]: Active Floats
+            - generic [ref=e77]: "41"
+          - generic [ref=e78]:
+            - generic [ref=e80]: Avg TEMP
+            - generic [ref=e81]: "27.18"
+          - generic [ref=e82]:
+            - generic [ref=e84]: TEMP Range
+            - generic [ref=e85]: "20.9000"
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic:
+              - generic [ref=e89]:
+                - button "Zoom in" [ref=e90] [cursor=pointer]: +
+                - button "Zoom out" [ref=e91] [cursor=pointer]: −
+              - generic [ref=e92]:
+                - link "Leaflet" [ref=e93] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                  - img [ref=e94]
+                  - text: Leaflet
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors ©
+                - link "CARTO" [ref=e99] [cursor=pointer]:
+                  - /url: https://carto.com/attributions
+          - generic [ref=e100]:
+            - generic [ref=e101]: Temperature (°C)
+            - generic [ref=e103]:
+              - generic [ref=e104]: "20.9"
+              - generic [ref=e105]: "25.72"
+              - generic [ref=e106]: "30.6"
+        - separator [ref=e107]
+        - generic [ref=e109]: Geographic Distribution
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: "20"
+                        - generic:
+                          - generic: "25"
+                        - generic:
+                          - generic: "30"
+                      - generic:
+                        - generic:
+                          - generic: "0"
+                        - generic:
+                          - generic: "100"
+                        - generic:
+                          - generic: "200"
+                        - generic:
+                          - generic: "300"
+                - img:
+                  - generic:
+                    - generic:
+                      - generic: Latitude Distribution
+                    - generic:
+                      - generic: Latitude (°)
+                    - generic:
+                      - generic: Count
+                - generic [ref=e123]:
+                  - img [ref=e126] [cursor=pointer]
+                  - generic [ref=e128]:
+                    - img [ref=e130] [cursor=pointer]
+                    - img [ref=e133] [cursor=pointer]
+                    - img [ref=e136] [cursor=pointer]
+                  - generic [ref=e138]:
+                    - img [ref=e140] [cursor=pointer]
+                    - img [ref=e143] [cursor=pointer]
+                    - img [ref=e146] [cursor=pointer]
+                    - img [ref=e149] [cursor=pointer]
+                - img
+          - generic:
+            - generic:
+              - generic:
+                - img:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: −70
+                        - generic:
+                          - generic: −60
+                        - generic:
+                          - generic: −50
+                      - generic:
+                        - generic:
+                          - generic: "0"
+                        - generic:
+                          - generic: "100"
+                        - generic:
+                          - generic: "200"
+                        - generic:
+                          - generic: "300"
+                - img:
+                  - generic:
+                    - generic:
+                      - generic: Longitude Distribution
+                    - generic:
+                      - generic: Longitude (°)
+                    - generic:
+                      - generic: Count
+                - generic [ref=e164]:
+                  - img [ref=e167] [cursor=pointer]
+                  - generic [ref=e169]:
+                    - img [ref=e171] [cursor=pointer]
+                    - img [ref=e174] [cursor=pointer]
+                    - img [ref=e177] [cursor=pointer]
+                  - generic [ref=e179]:
+                    - img [ref=e181] [cursor=pointer]
+                    - img [ref=e184] [cursor=pointer]
+                    - img [ref=e187] [cursor=pointer]
+                    - img [ref=e190] [cursor=pointer]
+                - img
+        - generic [ref=e193]: Float Track Overview
+        - generic:
+          - generic:
+            - generic:
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: −75
+                      - generic:
+                        - generic: −70
+                      - generic:
+                        - generic: −65
+                      - generic:
+                        - generic: −60
+                      - generic:
+                        - generic: −55
+                      - generic:
+                        - generic: −50
+                      - generic:
+                        - generic: −45
+                    - generic:
+                      - generic:
+                        - generic: "20"
+                      - generic:
+                        - generic: "22"
+                      - generic:
+                        - generic: "24"
+                      - generic:
+                        - generic: "26"
+                      - generic:
+                        - generic: "28"
+                      - generic:
+                        - generic: "30"
+              - img:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "22"
+                      - generic:
+                        - generic: "24"
+                      - generic:
+                        - generic: "26"
+                      - generic:
+                        - generic: "28"
+                      - generic:
+                        - generic: "30"
+                    - generic:
+                      - generic:
+                        - generic: Temperature (°C)
+                  - generic:
+                    - generic: Float Tracks — coloured by Temperature (°C)
+                  - generic:
+                    - generic: Longitude (°)
+                  - generic:
+                    - generic: Latitude (°)
+              - generic [ref=e207]:
+                - img [ref=e210] [cursor=pointer]
+                - generic [ref=e212]:
+                  - img [ref=e214] [cursor=pointer]
+                  - img [ref=e217] [cursor=pointer]
+                  - img [ref=e220] [cursor=pointer]
+                - generic [ref=e222]:
+                  - img [ref=e224] [cursor=pointer]
+                  - img [ref=e227] [cursor=pointer]
+                  - img [ref=e230] [cursor=pointer]
+                  - img [ref=e233] [cursor=pointer]
+              - img
+        - paragraph [ref=e235]: 2,715 observations from 41 float(s) · CartoDB Dark Matter tiles · OpenStreetMap contributors
+  - img [ref=e236]

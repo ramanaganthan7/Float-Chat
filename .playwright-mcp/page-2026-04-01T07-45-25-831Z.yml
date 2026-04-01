@@ -1,0 +1,67 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - generic [ref=e11]: AlgoFloat
+      - generic [ref=e12]: Ocean Intelligence Platform
+    - navigation [ref=e13]:
+      - generic [ref=e14]: Navigation
+      - link "Home" [ref=e15] [cursor=pointer]:
+        - /url: /
+        - img [ref=e17]
+        - text: Home
+      - link "Overview" [ref=e19] [cursor=pointer]:
+        - /url: /overview
+        - img [ref=e21]
+        - text: Overview
+      - link "Map" [ref=e26] [cursor=pointer]:
+        - /url: /map
+        - img [ref=e28]
+        - text: Map
+      - link "Trends" [ref=e31] [cursor=pointer]:
+        - /url: /trends
+        - img [ref=e33]
+        - text: Trends
+      - link "Chatbot" [ref=e35] [cursor=pointer]:
+        - /url: /chatbot
+        - img [ref=e37]
+        - text: Chatbot
+    - generic [ref=e39]:
+      - generic [ref=e40]: ARGO Float Array
+      - generic [ref=e41]: Gemini 2.0 Flash
+      - generic [ref=e42]: v0.1.0
+  - main [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Table Schema
+        - generic [ref=e47]:
+          - text: TABLE argo_profiles
+          - generic [ref=e48]: N_POINTS, CYCLE_NUMBER
+          - generic [ref=e49]: DATA_MODE, DIRECTION
+          - generic [ref=e50]: PLATFORM_NUMBER
+          - generic [ref=e51]: PRES
+          - generic [ref=e52]: PSAL
+          - generic [ref=e53]: TEMP
+          - generic [ref=e54]: LATITUDE, LONGITUDE
+          - generic [ref=e55]: TIME
+        - generic [ref=e56]: Example Queries
+        - generic [ref=e57] [cursor=pointer]: Show me the top 10 highest temperature readings
+        - generic [ref=e58] [cursor=pointer]: Average salinity per platform
+        - generic [ref=e59] [cursor=pointer]: List all floats and their cycle counts
+        - generic [ref=e60] [cursor=pointer]: Show pressure vs temperature for platform 5906343
+        - generic [ref=e61] [cursor=pointer]: Which float has the deepest observations?
+        - generic [ref=e62] [cursor=pointer]: Find readings where TEMP > 28°C
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - img [ref=e66]
+          - generic [ref=e68]:
+            - heading "Chat with Ocean Data" [level=1] [ref=e69]
+            - paragraph [ref=e70]: Ask anything in plain English — Gemini 2.0 Flash generates SQL and SQLite executes it instantly.
+        - generic [ref=e71]: Gemini 2.0 Flash connected
+        - generic [ref=e74]: Ask a question about the ARGO ocean dataset to get started.
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - textbox "e.g. Show me temperature readings above 28°C …" [ref=e77]
+            - button "Ask" [disabled] [ref=e78]
+          - generic [ref=e79]: Press Enter to send · Shift+Enter for new line

@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e6]
+          - generic [ref=e11]: AlgoFloat
+        - generic [ref=e12]: Ocean Intelligence Platform
+      - navigation [ref=e13]:
+        - generic [ref=e14]: Navigation
+        - link "Home" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - img [ref=e17]
+          - text: Home
+        - link "Overview" [ref=e19] [cursor=pointer]:
+          - /url: /overview
+          - img [ref=e21]
+          - text: Overview
+        - link "Map" [ref=e26] [cursor=pointer]:
+          - /url: /map
+          - img [ref=e28]
+          - text: Map
+        - link "Trends" [ref=e31] [cursor=pointer]:
+          - /url: /trends
+          - img [ref=e33]
+          - text: Trends
+        - link "Chatbot" [ref=e35] [cursor=pointer]:
+          - /url: /chatbot
+          - img [ref=e37]
+          - text: Chatbot
+      - generic [ref=e39]:
+        - generic [ref=e40]: ARGO Float Array
+        - generic [ref=e41]: Gemini 2.0 Flash
+        - generic [ref=e42]: v0.1.0
+    - main [ref=e43]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - generic [ref=e53]:
+            - heading "Float Locations Map" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Interactive global map of ARGO float positions coloured by ocean parameter.
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Colour by
+            - combobox [ref=e59] [cursor=pointer]:
+              - option "Temperature (°C)" [selected]
+              - option "Salinity (PSU)"
+              - option "Pressure (dbar)"
+          - generic [ref=e60]:
+            - generic [ref=e61]: Map style
+            - combobox [ref=e62] [cursor=pointer]:
+              - option "Dark Ocean" [selected]
+              - option "Street Map"
+              - option "Light Clean"
+          - generic [ref=e63]:
+            - generic [ref=e64]: Color scale
+            - combobox [ref=e65] [cursor=pointer]:
+              - option "Viridis" [selected]
+              - option "Plasma"
+              - option "Turbo"
+              - option "Blues"
+              - option "Cividis"
+          - generic [ref=e66]:
+            - generic [ref=e67]: Platforms
+            - listbox [ref=e68]:
+              - option "1902299" [selected] [ref=e69]
+              - option "1902311" [selected] [ref=e70]
+              - option "1902312" [selected] [ref=e71]
+              - option "1902313" [selected] [ref=e72]
+              - option "1902314" [selected] [ref=e73]
+              - option "1902316" [selected] [ref=e74]
+              - option "1902360" [selected] [ref=e75]
+              - option "1902361" [selected] [ref=e76]
+              - option "1902362" [selected] [ref=e77]
+              - option "1902363" [selected] [ref=e78]
+              - option "1902364" [selected] [ref=e79]
+              - option "1902365" [selected] [ref=e80]
+              - option "1902366" [selected] [ref=e81]
+              - option "1902375" [selected] [ref=e82]
+              - option "1902383" [selected] [ref=e83]
+              - option "1902385" [selected] [ref=e84]
+              - option "1902406" [selected] [ref=e85]
+              - option "1902512" [selected] [ref=e86]
+              - option "2904007" [selected] [ref=e87]
+              - option "3901686" [selected] [ref=e88]
+              - option "3902348" [selected] [ref=e89]
+              - option "4902440" [selected] [ref=e90]
+              - option "4902502" [selected] [ref=e91]
+              - option "4902590" [selected] [ref=e92]
+              - option "4903244" [selected] [ref=e93]
+              - option "4903274" [selected] [ref=e94]
+              - option "4903276" [selected] [ref=e95]
+              - option "4903348" [selected] [ref=e96]
+              - option "4903352" [selected] [ref=e97]
+              - option "4903372" [selected] [ref=e98]
+              - option "4903898" [selected] [ref=e99]
+              - option "5906343" [selected] [ref=e100]
+              - option "5907143" [selected] [ref=e101]
+              - option "6901997" [selected] [ref=e102]
+              - option "6902915" [selected] [ref=e103]
+              - option "6903112" [selected] [ref=e104]
+              - option "6903123" [selected] [ref=e105]
+              - option "6904126" [selected] [ref=e106]
+              - option "6904128" [selected] [ref=e107]
+              - option "7902226" [selected] [ref=e108]
+              - option "7902278" [selected] [ref=e109]
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: Visible Records
+            - generic [ref=e113]: 2,715
+          - generic [ref=e114]:
+            - generic [ref=e115]: Active Floats
+            - generic [ref=e116]: "41"
+          - generic [ref=e117]:
+            - generic [ref=e118]: Avg TEMP
+            - generic [ref=e119]: "27.18"
+          - generic [ref=e120]:
+            - generic [ref=e121]: TEMP Range
+            - generic [ref=e122]: 20.9 – 30.6
+        - separator [ref=e124]
+        - generic [ref=e126]: Geographic Distribution
+        - generic [ref=e127]:
+          - generic [ref=e130]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: "20"
+                    - generic:
+                      - generic: "25"
+                    - generic:
+                      - generic: "30"
+                  - generic:
+                    - generic:
+                      - generic: "0"
+                    - generic:
+                      - generic: "100"
+                    - generic:
+                      - generic: "200"
+                    - generic:
+                      - generic: "300"
+            - img:
+              - generic:
+                - generic:
+                  - generic: Latitude Distribution
+            - generic [ref=e144]:
+              - img [ref=e147] [cursor=pointer]
+              - generic [ref=e149]:
+                - img [ref=e151] [cursor=pointer]
+                - img [ref=e154] [cursor=pointer]
+                - img [ref=e157] [cursor=pointer]
+              - generic [ref=e159]:
+                - img [ref=e161] [cursor=pointer]
+                - img [ref=e164] [cursor=pointer]
+                - img [ref=e167] [cursor=pointer]
+                - img [ref=e170] [cursor=pointer]
+            - img
+          - generic [ref=e174]:
+            - img:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: −70
+                    - generic:
+                      - generic: −60
+                    - generic:
+                      - generic: −50
+                  - generic:
+                    - generic:
+                      - generic: "0"
+                    - generic:
+                      - generic: "100"
+                    - generic:
+                      - generic: "200"
+                    - generic:
+                      - generic: "300"
+            - img:
+              - generic:
+                - generic:
+                  - generic: Longitude Distribution
+            - generic [ref=e188]:
+              - img [ref=e191] [cursor=pointer]
+              - generic [ref=e193]:
+                - img [ref=e195] [cursor=pointer]
+                - img [ref=e198] [cursor=pointer]
+                - img [ref=e201] [cursor=pointer]
+              - generic [ref=e203]:
+                - img [ref=e205] [cursor=pointer]
+                - img [ref=e208] [cursor=pointer]
+                - img [ref=e211] [cursor=pointer]
+                - img [ref=e214] [cursor=pointer]
+            - img
+        - paragraph [ref=e216]: Displaying 2,715 observations from 41 float(s).
+  - img [ref=e217]

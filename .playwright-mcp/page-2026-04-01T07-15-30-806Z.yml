@@ -1,0 +1,58 @@
+- generic [ref=e2]:
+  - generic [ref=e7]:
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "app" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - paragraph [ref=e16]: app
+      - listitem [ref=e17]:
+        - link "Overview" [ref=e19] [cursor=pointer]:
+          - /url: http://localhost:8501/Overview
+          - paragraph [ref=e22]: Overview
+      - listitem [ref=e23]:
+        - link "Map" [ref=e25] [cursor=pointer]:
+          - /url: http://localhost:8501/Map
+          - paragraph [ref=e28]: Map
+      - listitem [ref=e29]:
+        - link "Trends" [ref=e31] [cursor=pointer]:
+          - /url: http://localhost:8501/Trends
+          - paragraph [ref=e34]: Trends
+      - listitem [ref=e35]:
+        - link "Chatbot" [ref=e37] [cursor=pointer]:
+          - /url: http://localhost:8501/Chatbot
+          - paragraph [ref=e40]: Chatbot
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - img [ref=e51]
+        - generic [ref=e56]: AlgoFloat
+      - generic [ref=e57]: Ocean Intelligence Platform
+  - generic [ref=e3]:
+    - banner [ref=e60]:
+      - button "Deploy" [ref=e65] [cursor=pointer]:
+        - generic [ref=e67]: Deploy
+    - generic [ref=e68]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: Live Ocean Data
+        - generic [ref=e79]:
+          - code [ref=e82]: <h1 style=" margin:0 0 0.8rem; font-size:clamp(1.9rem,3.5vw,2.8rem); font-weight:800; letter-spacing:-0.03em; background:linear-gradient(135deg,#E8F4FD 0%,#7ECEF4 45%,#00D4FF 100%); -webkit-background-clip:text;-webkit-text-fill-color:transparent; background-clip:text; line-height:1.15; "> AI-Powered ARGO<br>Ocean Data Explorer </h1> <p style=" margin:0 0 2rem; color:#8FACC8; font-size:1rem; line-height:1.7; "> Real-time oceanographic insights from the global ARGO profiling float array. Explore temperature, salinity, and pressure across the world's oceans — powered by Gemini 2.0 Flash and natural language SQL. </p> <div style="display:flex;gap:0.6rem;flex-wrap:wrap;"> <div style=" padding:0.38rem 0.9rem; background:rgba(0,148,198,0.14);border:1px solid rgba(0,148,198,0.28); border-radius:24px;font-size:0.77rem;font-weight:600;color:#7ECEF4; display:flex;align-items:center;gap:0.4rem; "> <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="#7ECEF4" stroke-width="2.2"> <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"/> </svg> SQLite Database </div> <div style=" padding:0.38rem 0.9rem; background:rgba(0,198,184,0.11);border:1px solid rgba(0,198,184,0.24); border-radius:24px;font-size:0.77rem;font-weight:600;color:#00C6B8; display:flex;align-items:center;gap:0.4rem; "> <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="#00C6B8" stroke-width="2.2"> <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/> </svg> Gemini 2.0 Flash </div> <div style=" padding:0.38rem 0.9rem; background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.18); border-radius:24px;font-size:0.77rem;font-weight:600;color:#00D4FF; display:flex;align-items:center;gap:0.4rem; "> <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="#00D4FF" stroke-width="2.2"> <circle cx="12" cy="12" r="10"/> <path stroke-linecap="round" d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/> </svg> ARGO Float Array </div> <div style=" padding:0.38rem 0.9rem; background:rgba(78,205,196,0.09);border:1px solid rgba(78,205,196,0.22); border-radius:24px;font-size:0.77rem;font-weight:600;color:#4ECDC4; display:flex;align-items:center;gap:0.4rem; "> <svg width="11" height="11" fill="none" viewBox="0 0 24 24" stroke="#4ECDC4" stroke-width="2.2"> <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/> </svg> Plotly Visualizations </div> </div>
+          - button "Copy to clipboard" [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+      - generic [ref=e91]:
+        - generic [ref=e98]:
+          - img [ref=e101]
+          - generic [ref=e106]: Overview
+          - generic [ref=e107]: Dataset statistics, KPI metrics, and full parameter distribution analysis across the ARGO dataset.
+        - generic [ref=e114]:
+          - img [ref=e117]
+          - generic [ref=e121]: Map
+          - generic [ref=e122]: Interactive global map of ARGO float positions with parameter-driven color overlays and filters.
+        - generic [ref=e129]:
+          - img [ref=e132]
+          - generic [ref=e134]: Trends
+          - generic [ref=e135]: Time-series analysis, depth profiles, and correlation views for temperature, salinity, and pressure.
+        - generic [ref=e142]:
+          - img [ref=e145]
+          - generic [ref=e147]: Chatbot
+          - generic [ref=e148]: Natural language interface — ask anything about the data in plain English; Gemini writes the SQL.
+      - separator [ref=e153]
+      - generic [ref=e158]: "Data: ARGO Global Float Array · AI: Gemini 2.0 Flash · Storage: SQLite · Charts: Plotly"
